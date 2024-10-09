@@ -1,0 +1,61 @@
+
+/*
+@author Jose Antonio Serrano
+@email serjosedev@gmail.com
+@create date 2024-10-09 17:10:50
+@modify date 2024-10-09 18:22:55
+@desc [description] 
+*/
+
+
+/* Estilo del encabezado */
+header h1 {
+    font-family: 'Arial', sans-serif;
+    color: #4A90E2; /* Color azul */
+    text-align: center;
+    font-size: 28px;
+}
+
+/* Selector de clase para la sección */
+.contenido {
+    margin-left: 8%;
+    margin-right: 5%;
+    margin-top: 30px;
+}
+
+/* Selector de ID para el primer artículo */
+#articulo1 {
+    font-size: 16px;
+    text-align: justify;
+    color: #FF5733; /* Color naranja */
+}
+
+/* Selector de ID para el segundo artículo */
+#articulo2 {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+    color: #3498DB; /* Color azul claro */
+}
+
+/* Estilo del menú centrado con lista en línea */
+footer nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+footer nav ul li {
+    margin: 0 20px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Pseudoclase para los enlaces */
+footer nav ul li a:hover {
+    color: orange;
+}
